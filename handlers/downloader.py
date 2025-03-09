@@ -2,7 +2,7 @@ import ctypes
 import subprocess
 from subprocess import getoutput
 from handlers.url_scripts import ParseLink
-from main import LOGGER as LOGS
+from main import logging as LOGS
 import asyncio
 import requests
 import aiohttp
