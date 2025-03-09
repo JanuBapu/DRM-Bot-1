@@ -1,5 +1,5 @@
 from pyrogram import filters, Client
-from main import LOGGER as LOGS, prefixes, Config, Msg
+from main import logging as LOGS, prefixes, Config, Msg
 from pyrogram.types import Message
 from handlers.tg import TgClient, TgHandler
 import os
