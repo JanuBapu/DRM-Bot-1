@@ -39,7 +39,7 @@ logging.basicConfig(
 
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-logging = logging.getLogger()
+logger = logging.getLogger()
 
 
 # Store
